@@ -1,4 +1,4 @@
-```markdown
+
 # Ethereum Token ETL & Relational Data Models
 
 A lightweight, modular data persistence layer built with Python and SQLAlchemy to model, track, and persist on-chain Ethereum activity and token market pricing.
@@ -17,7 +17,6 @@ This module acts as the relational schema and ingestion layer for Ethereum on-ch
 │   ├── transaction.py        # On-chain transfer events, block numbers, and addresses
 │   ├── price_history.py      # Historical token pricing and timestamp-based queries
 │   └── pool_address.py       # Liquidity pool registry and contract mappings
-
 ```
 
 ---
