@@ -152,6 +152,3 @@ for record in queried_token.price_history:
 * **Deduplication:** Composite constraints on `(token_id, timestamp)` guarantee idempotent price ingestion cycles.
 * **Separation of Concerns:** Each blockchain primitive is decoupled into its own file, facilitating pipeline extensions such as event listeners, Celery tasks, or analytics scripts.
 
-```
-
-```
